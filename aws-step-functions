@@ -1,0 +1,15 @@
+O que eu aprendi
+
+Durante este laboratório, eu aprendi a trabalhar com AWS Step Functions, uma ferramenta da AWS que permite criar workflows automatizados para orquestrar serviços na nuvem de forma fácil e eficiente. Esse aprendizado foi essencial para eu entender como organizar processos complexos, que envolvem várias etapas, garantindo que tudo funcione em sequência ou em paralelo, com controle de erros e monitoramento.
+
+Primeiro, entendi o conceito básico das Step Functions: são como um mapa que define o caminho que um processo deve seguir, com cada passo representando uma tarefa, como executar uma função Lambda, esperar um tempo, ou tomar decisões baseadas em condições. Isso me ajudou a visualizar processos que antes pareciam complicados, de forma clara e estruturada.
+
+Aprendi a criar máquinas de estado (state machines) usando o AWS Console e arquivos JSON com a linguagem Amazon States Language (ASL). Configurei estados como “Task”, “Choice”, “Wait” e “Succeed”, entendendo como cada um funciona e qual o papel dentro do fluxo.
+
+Também pratiquei a integração das Step Functions com outros serviços da AWS, principalmente funções Lambda, que são pequenos códigos que executam tarefas específicas. Isso me mostrou como criar processos automatizados que respondem a eventos e realizam ações automaticamente.
+
+Além disso, explorei o monitoramento das execuções das Step Functions, analisando logs e status para garantir que o workflow está funcionando corretamente e para identificar possíveis falhas.
+
+Para documentar tudo isso, organizei minhas anotações em um repositório no GitHub, criando um README.md detalhado, com explicações, exemplos de código e insights adquiridos durante a prática. Também adicionei capturas de tela para ajudar a visualizar os passos.
+
+Com esse desafio, entendi que a automação de processos na nuvem não só facilita o gerenciamento, mas também aumenta a confiabilidade e a escalabilidade das aplicações. Agora me sinto mais preparada para usar AWS Step Functions em projetos reais, automatizando tarefas complexas de forma organizada e eficiente.
