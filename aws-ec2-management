@@ -1,0 +1,17 @@
+O que eu aprendi
+
+Durante este desafio, eu tive a oportunidade de aprender muito sobre como criar e gerenciar instâncias EC2 na AWS, usando tanto o Console da AWS quanto a AWS CLI no meu computador. Esse aprendizado foi muito importante para eu entender como funciona a infraestrutura em nuvem e como trabalhar com ela de maneira prática, segura e eficiente.
+
+Primeiro, aprendi a criar uma instância EC2 pelo Console da AWS. Descobri que tudo começa escolhendo uma Amazon Machine Image (AMI), que é o sistema operacional que vai rodar na máquina virtual, como Ubuntu, Amazon Linux ou Windows. Depois, escolhi o tipo da instância, que define a capacidade da máquina, como processador, memória e armazenamento. Para meus testes, usei o tipo t2.micro, que é gratuito e ideal para aprender sem gerar custos.
+
+Também configurei os grupos de segurança, que funcionam como um firewall para controlar quem pode acessar a minha instância. Abri a porta 22 para permitir o acesso via SSH, que é o protocolo seguro para conectar remotamente. Além disso, criei um par de chaves SSH para garantir que eu pudesse acessar minha instância de forma segura, sem precisar de senha. Aprendi a usar essa chave privada no meu computador para me conectar via terminal, cuidando para manter a chave protegida.
+
+Além do Console, explorei a AWS CLI, que é uma ferramenta para gerenciar a AWS usando comandos no terminal. Configurei a AWS CLI no meu computador com minhas credenciais e executei comandos para criar, listar, iniciar, parar e terminar instâncias EC2. Isso me ajudou a entender como automatizar tarefas e trabalhar de forma mais rápida e eficiente, o que é essencial em ambientes reais.
+
+Também aprendi a importância de monitorar o estado das instâncias para evitar custos desnecessários. Por exemplo, uma instância que fica rodando sem uso pode gerar cobranças, então aprendi a parar e finalizar as instâncias que não estou usando para economizar.
+
+Um ponto muito importante foi documentar tudo o que fiz. Criei um repositório público no GitHub, onde coloquei um arquivo README.md detalhado explicando cada passo, os comandos que usei e o que aprendi. Também organizei capturas de tela do Console e dos comandos dentro de uma pasta chamada /images. Isso me ajudou a fixar o conhecimento e cria um material que posso usar para revisar ou compartilhar com outras pessoas.
+
+Além disso, entendi algumas boas práticas, como nunca subir chaves privadas para o GitHub, usar sempre o nível gratuito da AWS para evitar custos e seguir as etapas corretamente para que tudo funcione.
+
+Esse desafio me fez perceber que trabalhar com infraestrutura na nuvem envolve muito mais do que só conhecimento técnico — é preciso organização, cuidado com a segurança e atenção aos detalhes. Agora, me sinto mais preparada para usar a AWS, automatizar processos e gerenciar ambientes na nuvem de forma segura e eficiente.
