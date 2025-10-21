@@ -1,0 +1,9 @@
+O que eu aprendi
+
+Nesse laboratório, aprendi a criar minha primeira Stack usando o AWS CloudFormation. Entendi que o CloudFormation é uma ferramenta que me ajuda a montar toda a infraestrutura na AWS de forma automática, escrevendo tudo em um arquivo só, sem precisar fazer cada passo manualmente.
+
+Vi que é possível descrever recursos como máquinas virtuais (EC2), regras de segurança, e armazenamento (S3) usando arquivos em YAML ou JSON. Isso facilita muito porque posso criar ou apagar tudo de uma vez só, e o CloudFormation cuida para que tudo seja feito na ordem certa.
+
+Também aprendi a usar parâmetros para deixar meus templates mais flexíveis, assim posso reutilizar o mesmo arquivo para diferentes projetos só mudando alguns valores. Além disso, entendi como acompanhar o status da criação da stack e resolver possíveis erros durante o processo.
+
+Documentei tudo no meu repositório do GitHub, com exemplos e anotações para ajudar no meu estudo e para usar no futuro. Com isso, percebi que aprender a usar o CloudFormation é muito importante para trabalhar com infraestrutura como código, deixando meu trabalho mais rápido, organizado e seguro.
