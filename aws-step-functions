@@ -1,6 +1,6 @@
 O que eu aprendi
 
-Durante este laboratório, eu aprendi a trabalhar com AWS Step Functions, uma ferramenta da AWS que permite criar workflows automatizados para orquestrar serviços na nuvem de forma fácil e eficiente. Esse aprendizado foi essencial para eu entender como organizar processos complexos, que envolvem várias etapas, garantindo que tudo funcione em sequência ou em paralelo, com controle de erros e monitoramento.
+Durante as explicações, eu aprendi a trabalhar com AWS Step Functions, uma ferramenta da AWS que permite criar workflows automatizados para orquestrar serviços na nuvem de forma fácil e eficiente. Esse aprendizado foi essencial para eu entender como organizar processos complexos, que envolvem várias etapas, garantindo que tudo funcione em sequência ou em paralelo, com controle de erros e monitoramento.
 
 Primeiro, entendi o conceito básico das Step Functions: são como um mapa que define o caminho que um processo deve seguir, com cada passo representando uma tarefa, como executar uma função Lambda, esperar um tempo, ou tomar decisões baseadas em condições. Isso me ajudou a visualizar processos que antes pareciam complicados, de forma clara e estruturada.
 
