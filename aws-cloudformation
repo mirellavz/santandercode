@@ -1,9 +1,13 @@
-Nessas aulas, comecei a trabalhar com o AWS CloudFormation e criei minha primeira Stack. No começo, achei interessante perceber que o CloudFormation permite montar toda a infraestrutura na AWS de forma automática, só escrevendo tudo em um arquivo. É bem diferente de ter que fazer cada passo manualmente, um por um.
+Nessas aulas, comecei a trabalhar com o AWS CloudFormation e criei minha primeira Stack. Achei muito interessante perceber que ele permite montar toda a infraestrutura na AWS de forma automática, apenas escrevendo tudo em um arquivo, sem precisar fazer cada passo manualmente.
 
-Aprendi que dá para descrever recursos como máquinas virtuais (EC2), regras de segurança e armazenamento (S3) usando arquivos em YAML ou JSON. Isso facilita muito a vida, porque posso criar ou apagar tudo de uma vez, e o CloudFormation organiza tudo na ordem certa. No início confundi um pouco os parâmetros, mas depois entendi como eles ajudam a deixar o template mais flexível. Assim, posso reutilizar o mesmo arquivo para diferentes projetos, mudando apenas alguns valores.
+Aprendi a descrever recursos como máquinas virtuais (EC2), regras de segurança e armazenamento (S3) usando YAML ou JSON. Isso facilita bastante, pois posso criar ou apagar toda a infraestrutura de uma vez, e o CloudFormation organiza tudo na ordem certa.
 
-Também descobri como acompanhar o status da criação da stack e lidar com possíveis erros. No começo tive que refazer algumas etapas, mas isso ajudou a fixar melhor o funcionamento do serviço.
+Também entendi como usar parâmetros para deixar os templates mais flexíveis, permitindo reutilizar o mesmo arquivo em diferentes projetos apenas alterando alguns valores. Aprendi a usar Outputs para exibir informações importantes da Stack, como IDs de recursos ou endpoints.
 
-Para não esquecer nada, documentei tudo no meu GitHub: coloquei exemplos, anotações e organizei o que aprendi. Fazer isso me fez perceber que aprender a usar o CloudFormation realmente deixa o trabalho mais rápido, organizado e seguro — principalmente quando estamos lidando com vários recursos na nuvem.
+Durante a prática, acompanhei o status da criação da Stack, interpretei mensagens de erro e refiz algumas etapas, o que ajudou a fixar o aprendizado e entender melhor o fluxo entre os recursos.
 
-No final, fiquei com a sensação de que entender infraestrutura como código é muito útil, e que vale a pena praticar bastante para se sentir confortável usando essas ferramentas em projetos reais.
+Documentei tudo no meu GitHub, com exemplos, prints de telas e anotações. Isso me fez perceber que organização e documentação são essenciais para projetos na nuvem.
+
+Também compreendi que automatizar a infraestrutura aumenta a segurança, diminui erros humanos e permite reproduzir ambientes rapidamente, algo fundamental em projetos reais.
+
+No final, me senti mais confiante para trabalhar com CloudFormation e infraestrutura como código, entendendo a importância de praticar bastante para criar stacks mais complexas de forma organizada e segura.
