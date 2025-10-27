@@ -10,4 +10,8 @@ Documentei tudo no meu GitHub, com exemplos, prints de telas e anotações. Isso
 
 Também compreendi que automatizar a infraestrutura aumenta a segurança, diminui erros humanos e permite reproduzir ambientes rapidamente, algo fundamental em projetos reais.
 
+Além disso, percebi como é importante planejar a arquitetura antes de criar a Stack, pensando em escalabilidade e boas práticas de segurança. Entender dependências entre recursos e testar pequenos ajustes me deu mais confiança.
+
 No final, me senti mais confiante para trabalhar com CloudFormation e infraestrutura como código, entendendo a importância de praticar bastante para criar stacks mais complexas de forma organizada e segura.
+
+Aprender CloudFormation me mostrou que infraestrutura como código não é só técnica, mas também organização, estratégia e atenção aos detalhes.
