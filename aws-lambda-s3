@@ -1,61 +1,33 @@
 Relatório de Aprendizagem — Desafio AWS Lambda e S3
 
-Durante a realização deste desafio da DIO, tive a oportunidade de aplicar na prática o que aprendi sobre o funcionamento dos serviços AWS Lambda e Amazon S3. Essa experiência foi importante para consolidar meus conhecimentos sobre automação de tarefas na nuvem e sobre o modelo de computação serverless, onde a execução de códigos não depende da configuração manual de servidores.
+Durante este desafio da DIO, apliquei na prática o que aprendi sobre AWS Lambda e Amazon S3, consolidando conhecimentos sobre automação e computação serverless.
 
-O que aprendi sobre o AWS Lambda
+AWS Lambda
+Aprendi que o Lambda permite executar códigos sem precisar gerenciar servidores. Basta criar uma função, escrever o código e definir o evento que aciona a execução. Criei uma função em Python que era acionada automaticamente sempre que um arquivo era enviado para um bucket S3, percebendo que a AWS gerencia toda a infraestrutura.
 
-Com este desafio, aprendi que o AWS Lambda é um serviço que permite executar códigos sem precisar administrar servidores. Basta criar uma função, desenvolver o código e definir o evento que vai acionar a execução.
+Amazon S3
+O S3 é um serviço de armazenamento de objetos na nuvem. Criei um bucket, configurei permissões e enviei arquivos. Aprendi que o S3 pode gerar eventos que disparam ações automáticas, tornando-se essencial em fluxos de automação.
 
-Compreendi que o Lambda é ideal para automatizar processos, principalmente quando há a necessidade de reagir a eventos, como o envio de um arquivo para um bucket S3.
-Durante o desafio, criei uma função Lambda utilizando Python e configurei um gatilho para que ela fosse executada automaticamente toda vez que um novo arquivo fosse enviado para o S3. Foi interessante perceber que a AWS gerencia toda a parte de infraestrutura e que eu só precisava me preocupar com o código e com as permissões de acesso.
+Integração Lambda e S3
+Configurei o bucket para acionar a função Lambda com cada novo arquivo. Dentro da função, capturei informações do evento, como nome do arquivo e bucket, para executar ações automáticas. Isso ajudou a entender sistemas orientados a eventos.
 
-O que aprendi sobre o Amazon S3
+Permissões (IAM)
+Aprendi a importância de configurar corretamente as permissões do IAM para que Lambda acessasse o S3 de forma segura, garantindo que cada serviço tenha apenas os acessos necessários.
 
-O Amazon S3 é um serviço de armazenamento de objetos na nuvem.
-Aprendi que ele é amplamente utilizado para armazenar arquivos, imagens, backups e outros tipos de dados de forma escalável e segura.
-
-Durante a prática, criei um bucket, entendi como enviar arquivos e configurei permissões adequadas para permitir a integração com o Lambda. Também percebi que o S3 pode atuar de forma ativa, gerando eventos que disparam ações automáticas, o que o torna uma ferramenta essencial em fluxos de automação na nuvem.
-
-Integração entre o Lambda e o S3
-
-A parte mais importante do desafio foi compreender como o S3 e o Lambda se integram.
-Configurei o bucket S3 para acionar a função Lambda sempre que um novo arquivo fosse adicionado. Dentro da função, foi possível capturar as informações do evento, como o nome do arquivo e do bucket, e executar ações automáticas a partir disso.
-
-Essa prática me ajudou a entender como funciona um sistema orientado a eventos, em que os serviços se comunicam e reagem a mudanças de forma totalmente automatizada. Esse conceito é um dos pilares da computação em nuvem moderna.
-
-O que aprendi sobre permissões (IAM)
-
-Durante a execução do desafio, também aprendi a importância do gerenciamento de permissões por meio do IAM (Identity and Access Management).
-Percebi que, para o Lambda acessar o S3 corretamente, é necessário configurar as políticas de permissão adequadas. Caso contrário, a função não consegue executar as ações necessárias.
-
-Esse aprendizado reforçou a importância da segurança na nuvem e da boa configuração de papéis e permissões, garantindo que cada serviço tenha apenas o acesso estritamente necessário.
-
-Outras habilidades desenvolvidas
-
-Além dos conhecimentos técnicos sobre AWS, este desafio me ajudou a desenvolver boas práticas de organização e documentação.
-Aprendi a documentar o processo utilizando Markdown no GitHub, a estruturar o repositório de forma organizada e a acompanhar os logs de execução pelo CloudWatch.
-
-Essas etapas mostraram o quanto é importante registrar e documentar cada parte do processo, tanto para aprendizado pessoal quanto para uso profissional e colaboração com outras pessoas.
+Outras habilidades
+Desenvolvi boas práticas de documentação, usando Markdown no GitHub, organizando o repositório e acompanhando logs pelo CloudWatch.
 
 Principais aprendizados
 
-Após concluir o desafio, percebi que aprendi muito mais do que apenas configurar serviços na AWS.
-Entre os principais pontos que levo desta experiência, destaco:
+Conceito e benefícios do serverless.
 
-Compreensão do conceito de computação serverless e seus benefícios.
+Automação baseada em eventos com Lambda e S3.
 
-Capacidade de criar automações baseadas em eventos usando Lambda e S3.
+Importância das permissões do IAM.
 
-Importância das permissões do IAM para segurança e funcionamento correto das aplicações.
+Monitoramento e depuração via CloudWatch.
 
-Uso do CloudWatch para monitorar e depurar execuções.
-
-Melhoria na documentação técnica e no versionamento de código no GitHub.
+Organização e versionamento de código no GitHub.
 
 Conclusão
-
-Este desafio foi uma excelente oportunidade para colocar em prática o que aprendi sobre automação e computação em nuvem.
-Compreendi de forma mais clara como os serviços da AWS podem trabalhar juntos para criar soluções automáticas, seguras e escaláveis.
-Além disso, desenvolvi uma visão mais técnica sobre como documentar processos e estruturar projetos de forma organizada.
-
-Essa experiência me ajudou a entender melhor como a nuvem pode simplificar o trabalho com dados e processos, e me motivou a continuar estudando mais sobre arquitetura serverless e automação na AWS.
+O desafio mostrou como serviços AWS podem trabalhar juntos para criar soluções automáticas, seguras e escaláveis. Aprendi a documentar processos e fiquei motivada a estudar mais sobre arquitetura serverless e automação na nuvem.
